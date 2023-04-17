@@ -11,12 +11,12 @@ icons[1].classList.add('fab', 'fa-whatsapp');
 icons[2].classList.add('fab', 'fa-instagram');
 
 const header = document.querySelector('header');
-const colors = ['#FF5733', '#C70039', '#900C3F', '#581845'];
+const colors = ['#6811cb', '#156ccadc', '#900C3F', '#bba800'];
 let i = 0;
 
 setInterval(() => {
   header.style.backgroundColor = colors[i];
-  i = (i + 150) % colors.length;
+  i = (i + 170) % colors.length;
 }, 2550);
 
 window.onscroll = function() {
