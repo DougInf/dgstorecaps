@@ -18,12 +18,11 @@ img {
 }
 
 header {
-    color: #fff;
-    text-align: center;
-    background-color: #FF5733;
-    color: white;
+    background-color:rgb(19, 135, 197);
     text-align: center;
     height: 330px;
+    width: auto;
+    margin-left: auto;
 }
 
 h2 {
@@ -138,6 +137,14 @@ i {
     }
     main {
          margin-bottom: 230px;
+    }
+    img {
+        margin-right: auto;
+    margin-top: 10px;
+    width: 300px; 
+    }
+    header{
+        width: auto;
     }
 }
 
