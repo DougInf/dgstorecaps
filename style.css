@@ -22,7 +22,8 @@ header {
     background-color: #FF5733;
     color: white;
     text-align: center;
-    height: 300px;
+    width: auto;
+    height: 330px;
 }
 
 h2 {
@@ -73,8 +74,8 @@ i {
 @media only screen and (min-width: 600px) {
     .links-container {
         font-size: 2rem;
-        margin-top: 100px;
-        margin-bottom: -10px;
+        margin-top: 1px;
+        margin-bottom: 10px;
         display: flex;
         justify-content: center;
     }
@@ -102,15 +103,16 @@ i {
     footer{
         font-size: 1em;
     }
-  }
+}
   
   /* Estilos para smartfones */
   @media only screen and (max-width: 600px) {
     .links-container {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 2em;
-      margin-top: 250px;  
-      display: flex;
+        font-size: 1em;
+        margin-top: auto;
+        margin-bottom: auto;
+      display: block;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -118,7 +120,7 @@ i {
     
     .link {
       margin: 6px;
-      padding: 10px;
+      padding: 5px;
       background-color: #156ccadc;
       border-radius: 5px;
       box-shadow: 2px 2px 5px 1px #127bb4;
@@ -135,17 +137,19 @@ i {
         color: #f3f3f3;
     }
     main {
-            margin-bottom: 220px;
+         margin-bottom: 230px;
     }
-  }
-  
-  footer{
+}
+
+footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #1b2b3d;
     text-align: center;
     color: #ffffff;
     padding: 12px;
-    margin-top: 90px;
-    margin-bottom: auto;
+    display: block;
+   
 }
+  
+  
 
