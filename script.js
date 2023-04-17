@@ -11,8 +11,8 @@ icons[1].classList.add('fab', 'fa-whatsapp');
 icons[2].classList.add('fab', 'fa-instagram');
 
 const header = document.querySelector('header');
-const colors = ['#6811cb', '#156ccadc', '#900C3F', '#bba800'];
-let i = 0;
+const colors = ['rgb(255, 170, 13)','rgb(19, 135, 197)','rgb(255, 205, 7)'];
+let i = 3;
 
 setInterval(() => {
   header.style.backgroundColor = colors[i];
