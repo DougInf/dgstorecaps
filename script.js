@@ -6,9 +6,11 @@
 const icons = document.querySelectorAll('i');
 
 // Adicione as classes para cada ícone
-icons[0].classList.add('fab', 'fa-github');
-icons[1].classList.add('fab', 'fa-whatsapp');
-icons[2].classList.add('fab', 'fa-instagram');
+icons[0].classList.add('fas', 'fa-store');
+icons[1].classList.add('fab', 'fa-instagram');
+icons[3].classList.add('fab', 'fa-telegram');
+icons[2].classList.add('fab', 'fa-whatsapp');
+
 
 const header = document.querySelector('header');
 const colors = ['rgb(255, 170, 13)','rgb(19, 135, 197)','rgb(255, 205, 7)'];
