@@ -115,10 +115,12 @@ i {
       justify-content: center;
       align-items: center;
     }
-    
+    main {
+        margin-bottom: 400px;
+      }
     .link {
       margin: 6px;
-      padding: 2px;
+      padding: auto;
       background-color: #156ccadc;
       border-radius: 5px;
       box-shadow: 2px 2px 5px 1px #127bb4;
@@ -130,12 +132,11 @@ i {
       color: #282828;
       font-weight: bold;
     }
+   
     .link a:hover {
       color: #f3f3f3;
     }
-    main {
-      margin-bottom: 230px;
-    }
+    
     img {
       margin-right: auto;
       margin-top: 10px;
@@ -151,6 +152,6 @@ footer {
      background-color: #1b2b3d;
      text-align: center;
      color: #ffffff;
-     padding: 12px;
+     margin-bottom: auto;
      display: block;
 }
