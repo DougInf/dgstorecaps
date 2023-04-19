@@ -8,6 +8,7 @@ body {
 }
 
 main {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: rgba(164, 163, 163, 0.716);
   border-radius: 20px 20px 20px 20px;
   display: flexbox; 
