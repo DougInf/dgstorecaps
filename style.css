@@ -109,7 +109,7 @@ i {
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-size: 1em;
       margin-top: auto;
-      margin-bottom: auto;
+      margin-bottom: 40vh;
       display: block;
       flex-direction: column;
       justify-content: center;
