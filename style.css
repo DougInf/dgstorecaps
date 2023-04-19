@@ -14,7 +14,6 @@ img {
     margin-right: auto;
     margin-top: 10px;
     width: 400px;
-
 }
 
 header {
@@ -37,7 +36,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 30vh;
 }
 
 ul {
@@ -80,12 +79,12 @@ i {
     }
     
     .link {
-      margin: 10px;
-      padding: 10px;
-      border-radius: 5px;
-      text-align: center;
-      width: 150px;
-      height: 150px;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        width: 150px;
+        height: 150px;
     }
     
     .link a {
@@ -107,10 +106,10 @@ i {
   /* Estilos para smartfones */
   @media only screen and (max-width: 600px) {
     .links-container {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 1em;
-        margin-top: auto;
-        margin-bottom: auto;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 1em;
+      margin-top: auto;
+      margin-bottom: auto;
       display: block;
       flex-direction: column;
       justify-content: center;
@@ -119,44 +118,39 @@ i {
     
     .link {
       margin: 6px;
-      padding: 5px;
+      padding: 6px;
       background-color: #156ccadc;
       border-radius: 5px;
       box-shadow: 2px 2px 5px 1px #127bb4;
       text-align: center;
       width: 100%;
-    }
-    
+    }   
     .link a {
       text-decoration: none;
       color: #282828;
       font-weight: bold;
     }
     .link a:hover {
-        color: #f3f3f3;
+      color: #f3f3f3;
     }
     main {
-         margin-bottom: 230px;
+      margin-bottom: 230px;
     }
     img {
-        margin-right: auto;
-    margin-top: 10px;
-    width: 300px; 
+      margin-right: auto;
+      margin-top: 10px;
+      width: 300px; 
     }
     header{
-        width: auto;
+      width: auto;
+      border-radius: 0px 0px 10px 10px;
     }
 }
-
 footer {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #1b2b3d;
-    text-align: center;
-    color: #ffffff;
-    padding: 12px;
-    display: block;
-   
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     background-color: #1b2b3d;
+     text-align: center;
+     color: #ffffff;
+     padding: 12px;
+     display: block;
 }
-  
-  
-
