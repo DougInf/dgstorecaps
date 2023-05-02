@@ -1,25 +1,21 @@
 * {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
-    margin: auto;
-    width: auto;
-    background-color: #1b2b3d;
-}
 
 img {
     margin-right: auto;
-    margin-top: 10px;
-    width: 400px;
+    margin-top: 20px;
+    width: 500px;
 }
 
 header {
     background-color:rgb(19, 135, 197);
     text-align: center;
-    height: 330px;
+    height: 450px;
     width: auto;
     margin-left: auto;
 }
@@ -33,10 +29,11 @@ p {
 }
 
 main {
+    width: auto;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
 }
 
 ul {
@@ -72,8 +69,7 @@ i {
 @media only screen and (min-width: 600px) {
     .links-container {
         font-size: 2rem;
-        margin-top: 1px;
-        margin-bottom: 10px;
+        margin-top: 80px;
         display: flex;
         justify-content: center;
     }
@@ -83,75 +79,73 @@ i {
         padding: 10px;
         border-radius: 5px;
         text-align: center;
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
     }
     
     .link a {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-decoration: none;
-        color: #2285f7;
+        color: #050505;
         font-weight: bold;
     }
     .link a:hover {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: #f3f3f3;
+        color: #0065fc;
     }
     
     footer{
         font-size: 1em;
     }
+
 }
   
   /* Estilos para smartfones */
   @media only screen and (max-width: 600px) {
     .links-container {
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-size: 1em;
-      margin-top: auto;
-      margin-bottom: 40vh;
+      margin-top: 6px;
       display: block;
       flex-direction: column;
       justify-content: center;
       align-items: center;
     }
     main {
-        margin-bottom: 400px;
+        margin-top: 20px;
+        margin-bottom: 4px;
       }
     .link {
       margin: 6px;
       padding: auto;
-      background-color: #156ccadc;
+      background-color:#242525;
       border-radius: 5px;
-      box-shadow: 2px 2px 5px 1px #127bb4;
+      box-shadow: 0px 0px 5px 0px #242525;
       text-align: center;
-      width: 100%;
+      width: 70%;
     }   
     .link a {
       text-decoration: none;
-      color: #282828;
+      color: #cfd0d1;
       font-weight: bold;
     }
    
     .link a:hover {
-      color: #f3f3f3;
+      color: #0483ebe3;
     }
     
     img {
       margin-right: auto;
-      margin-top: 10px;
+      margin-top: 60px;
       width: 300px; 
     }
     header{
       width: auto;
-      border-radius: 0px 0px 10px 10px;
+      height: 300px;
+      border-radius: 0px 0px 1px 1px;
     }
 }
 footer {
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     background-color: #1b2b3d;
+     background-image: url(imagens/headerp.jpg);
      text-align: center;
      color: #ffffff;
-     margin-bottom: auto;
-     display: block;
+     padding: 10px;
+     margin-top: 60px;
 }
