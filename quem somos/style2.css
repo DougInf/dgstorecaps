@@ -1,31 +1,38 @@
-/* Estilos para navegadores desktop */
-@media only screen and (min-width: 600px) {
-body {
-  background-color: rgb(19, 135, 197);
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   box-sizing: border-box;
-  margin: auto;
+  margin: 0;
   padding: 0;
 }
 
+/* Estilos para navegadores desktop */
+@media only screen and (min-width: 600px) {
+body {
+  background-color: rgb(236, 138, 9);
+  box-sizing: border-box;
+}
+
 main {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: rgba(164, 163, 163, 0.716);
-  border-radius: 20px 20px 20px 20px;
+  background-color: rgba(255, 255, 255, 0.199);
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 0px 10px;
   display: flexbox; 
   padding: 20px;
-  margin: 20px;
+  margin: 200px;
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 30px;
   text-decoration: none;
   text-align: justify;
   line-height: 1.5;
-  font-size: 19px;
+  font-size: 18px;
 }
 .logo {
   margin-top: 10px;
-  margin-bottom: -20px;
+
 }
+
+/*Adiciona o Botão de Voltar*/
 .voltar {
   display: inline-block;
   width: 30px;
@@ -35,12 +42,10 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.voltar {
   text-decoration: none;
-  padding: 10px;
-  margin-bottom: 20px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 }
@@ -49,26 +54,26 @@ main {
 @media only screen and (max-width: 600px) {
   
   body {
-    background-color: #1a5e6f;
+    background-color: rgb(221, 66, 27);
     box-sizing: border-box;
     margin: auto;
     padding: 0;
   }
 
   main {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color:  rgba(164, 163, 163, 0.716);
-    border-radius: 20px 20px 20px 20px;
-    padding: 10px;
-    display: flexbox;
+    background-color: rgba(255, 255, 255, 0.199);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 10px;
+    display: flexbox; 
     margin: 20px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    font-size: 18px;
+    padding: 10px;
     text-decoration: none;
     text-align: justify;
     line-height: 1.5;
+    font-size: 18px;
 
   }
 
@@ -76,7 +81,7 @@ main {
     margin-top: 20px;
     margin-bottom: 10px;
   }
-  
+  /*Adiciona o Botão de Voltar*/
   .voltar {
     display: inline-block;
     width: 30px;
@@ -88,5 +93,9 @@ main {
     text-decoration: none;
     padding: 10px;
     margin-bottom: 20px;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
